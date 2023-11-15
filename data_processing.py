@@ -229,3 +229,4 @@ print(my_pivot)
 my_pivot = my_table5.pivot_table(['class', 'gender', 'survived'], ['survived', 'fare'], [lambda x: len(x), lambda x: sum(x)/len(x)])
 print(my_pivot)
 # >>>>>>> pivot_feature
+
